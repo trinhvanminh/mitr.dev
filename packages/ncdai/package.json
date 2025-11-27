@@ -1,5 +1,5 @@
 {
-  "name": "ncdai",
+  "name": "tvminh",
   "version": "0.0.3",
   "description": "A simple CLI wrapper for adding components from chanhdai.com component registry using shadcn.",
   "publishConfig": {
@@ -30,17 +30,17 @@
     "components",
     "registry"
   ],
-  "author": "Nguyen Chanh Dai <dai@chanhdai.com>",
+  "author": "Trinh Van Minh <tvminh2611@gmail.com>",
   "license": "MIT",
-  "homepage": "https://chanhdai.com",
+  "homepage": "https://mitr.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncdai/chanhdai.com.git",
-    "directory": "packages/ncdai"
+    "url": "git+https://github.com/trinhvanminh/mitr.dev.git",
+    "directory": "packages/trinhvanminh"
   },
-  "funding": "https://github.com/sponsors/ncdai",
+  "funding": "https://github.com/sponsors/trinhvanminh",
   "bugs": {
-    "url": "https://github.com/ncdai/chanhdai.com/issues"
+    "url": "https://github.com/trinhvanminh/mitr.dev/issues"
   },
   "devDependencies": {
     "tsup": "^8.5.0"

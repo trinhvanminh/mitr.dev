@@ -20,4 +20,4 @@ Visit https://ui.shadcn.com/docs/cli to view the documentation.
 
 ## License
 
-Licensed under the [MIT license](https://github.com/ncdai/chanhdai.com/blob/main/LICENSE).
+Licensed under the [MIT license](https://github.com/trinhvaminh/mitr.dev/blob/main/LICENSE).
