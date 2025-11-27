@@ -33,14 +33,16 @@ export const MAIN_NAV: NavItem[] = [
   },
 ];
 
-export const GITHUB_USERNAME = "ncdai";
+export const GITHUB_USERNAME = "trinhvanminh";
+
+// TODO: Update repository name when changing
 export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com";
 export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com";
 
-export const SPONSORSHIP_URL = "https://github.com/sponsors/ncdai";
+export const SPONSORSHIP_URL = "https://github.com/sponsors/trinhvanminh";
 
 export const UTM_PARAMS = {
-  utm_source: "chanhdai.com",
+  utm_source: "mitr.dev",
   utm_medium: "referral",
   utm_campaign: "portfolio",
 };

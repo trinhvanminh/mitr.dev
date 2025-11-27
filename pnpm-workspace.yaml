@@ -1,1 +1,9 @@
-minimumReleaseAge: 4320 # 3 days
+minimumReleaseAge: 4320
+
+onlyBuiltDependencies:
+  - '@vercel/speed-insights'
+  - core-js
+  - esbuild
+  - msw
+  - protobufjs
+  - sharp

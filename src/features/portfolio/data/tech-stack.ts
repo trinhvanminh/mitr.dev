@@ -20,29 +20,17 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Language"],
   },
   {
-    key: "php",
-    title: "PHP",
-    href: "https://www.php.net/",
-    categories: ["Language"],
-  },
-  {
-    key: "java",
-    title: "Java",
-    href: "https://www.java.com/",
-    categories: ["Language"],
-  },
-  {
     key: "nodejs",
     title: "Node.js",
     href: "https://nodejs.org/",
     categories: ["Runtime Environment"],
   },
-  {
-    key: "bun",
-    title: "Bun",
-    href: "https://bun.sh/",
-    categories: ["Runtime Environment"],
-  },
+  // {
+  //   key: "bun",
+  //   title: "Bun",
+  //   href: "https://bun.sh/",
+  //   categories: ["Runtime Environment"],
+  // },
   {
     key: "react",
     title: "React",
@@ -89,12 +77,12 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Library"],
     theme: true,
   },
-  {
-    key: "mobx-state-tree",
-    title: "MobX-State-Tree",
-    href: "https://mobx-state-tree.js.org/",
-    categories: ["State Management"],
-  },
+  // {
+  //   key: "mobx-state-tree",
+  //   title: "MobX-State-Tree",
+  //   href: "https://mobx-state-tree.js.org/",
+  //   categories: ["State Management"],
+  // },
   {
     key: "redux",
     title: "Redux",
@@ -114,24 +102,18 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Library", "Navigation"],
     theme: true,
   },
-  {
-    key: "react-navigation",
-    title: "React Navigation",
-    href: "https://reactnavigation.org/",
-    categories: ["Library", "Navigation"],
-  },
-  {
-    key: "loopback",
-    title: "LoopBack",
-    href: "https://loopback.io/",
-    categories: ["Framework"],
-  },
-  {
-    key: "laravel",
-    title: "Laravel",
-    href: "https://laravel.com/",
-    categories: ["Framework"],
-  },
+  // {
+  //   key: "react-navigation",
+  //   title: "React Navigation",
+  //   href: "https://reactnavigation.org/",
+  //   categories: ["Library", "Navigation"],
+  // },
+  // {
+  //   key: "loopback",
+  //   title: "LoopBack",
+  //   href: "https://loopback.io/",
+  //   categories: ["Framework"],
+  // },
   {
     key: "git",
     title: "Git",
@@ -168,12 +150,12 @@ export const TECH_STACK: TechStack[] = [
     href: "https://www.figma.com/",
     categories: ["Tools", "Design"],
   },
-  {
-    key: "ps",
-    title: "Adobe Photoshop",
-    href: "https://www.adobe.com/vn_en/products/photoshop.html",
-    categories: ["Tools", "Design"],
-  },
+  // {
+  //   key: "ps",
+  //   title: "Adobe Photoshop",
+  //   href: "https://www.adobe.com/vn_en/products/photoshop.html",
+  //   categories: ["Tools", "Design"],
+  // },
   {
     key: "chatgpt",
     title: "ChatGPT",
