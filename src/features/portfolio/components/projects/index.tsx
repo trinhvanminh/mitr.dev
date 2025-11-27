@@ -9,7 +9,7 @@ export function Projects() {
     <Panel id="projects">
       <PanelHeader>
         <PanelTitle>
-          Projects
+          Projects (TBD)
           <PanelTitleSup>({PROJECTS.length})</PanelTitleSup>
         </PanelTitle>
       </PanelHeader>

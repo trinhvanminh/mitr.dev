@@ -57,17 +57,17 @@ export default function Page() {
         <Experiences />
         <Separator />
 
-        <Projects />
-        <Separator />
+        {/* <Projects />
+        <Separator /> */}
 
-        <Awards />
-        <Separator />
+        {/* <Awards />
+        <Separator /> */}
 
-        <Certifications />
-        <Separator />
+        {/* <Certifications />
+        <Separator /> */}
 
-        <Brand />
-        <Separator />
+        {/* <Brand />
+        <Separator /> */}
       </div>
     </>
   );

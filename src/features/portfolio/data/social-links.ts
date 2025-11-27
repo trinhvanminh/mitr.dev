@@ -13,12 +13,12 @@ export const SOCIAL_LINKS: SocialLink[] = [
     description: "trinhvanminh",
     href: "https://github.com/trinhvanminh",
   },
-  // {
-  //   icon: "https://assets.chanhdai.com/images/link-icons/linkedin.webp?t=1759581475",
-  //   title: "LinkedIn",
-  //   description: "ncdai",
-  //   href: "https://linkedin.com/in/ncdai",
-  // },
+  {
+    icon: "https://assets.chanhdai.com/images/link-icons/linkedin.webp?t=1759581475",
+    title: "LinkedIn",
+    description: "minh-trinh-van",
+    href: "https://www.linkedin.com/in/minh-trinh-van-4a29a2210/", // TODO: update later
+  },
   // {
   //   icon: "https://assets.chanhdai.com/images/link-icons/dailydotdev.webp?t=1759581475",
   //   title: "daily.dev",
