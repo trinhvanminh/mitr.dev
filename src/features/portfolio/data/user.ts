@@ -35,10 +35,9 @@ export const USER: User = {
 - Skilled in **Next.js**, **React**, **TypeScript**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
 - Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
 `,
-  avatar: "/assets/images/avatar-rick_and_morty-style.png",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1763205174",
-  namePronunciationUrl: "/audio/chanhdai.mp3",
+  avatar: "/assets/images/profile-avatar.png",
+  ogImage: "/assets/images/screenshot-og-image-light.png",
+  namePronunciationUrl: "/audio/minhtrinh.mp3",
   timeZone: "Asia/Ho_Chi_Minh",
   keywords: [
     "mitr",
@@ -54,5 +53,5 @@ export const USER: User = {
     "trịnh văn minh",
     "minh trịnh",
   ],
-  dateCreated: "2023-11-26", // YYYY-MM-DD
+  dateCreated: "2025-11-26", // YYYY-MM-DD
 };

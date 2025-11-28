@@ -1,18 +1,14 @@
-# [chanhdai.com](https://chanhdai.com)
+# [mitr.dev](https://mitr.dev)
 
 A minimal, pixel-perfect dev portfolio, component registry, and blog to showcase my work as a Design Engineer.
 
-Check out the live site: [chanhdai.com](https://chanhdai.com)
+Check out the live site: [mitr.dev](https://mitr.dev)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://assets.chanhdai.com/images/screenshot-desktop-dark.webp?t=1763226447">
-  <source media="(prefers-color-scheme: light)" srcset="https://assets.chanhdai.com/images/screenshot-desktop-light.webp?t=1763226447">
-  <img src="https://assets.chanhdai.com/images/screenshot-desktop-light.webp?t=1763226447" alt="Screenshot">
+  <source media="(prefers-color-scheme: dark)" srcset="/assets/images/screenshot-og-image-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="/assets/images/screenshot-og-image-light.png">
+  <img src="/assets/images/screenshot-og-image-light.png" alt="Screenshot">
 </picture>
-
-## GitAds Sponsored
-
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=ncdai/chanhdai.com@github)](https://gitads.dev/v1/ad-track?source=ncdai/chanhdai.com@github)
 
 ## Overview
 
@@ -79,7 +75,7 @@ You're free to use my code! Just make sure to <ins>remove all my personal inform
 
 ## Star History
 
-[![Star History](https://starchart.cc/ncdai/chanhdai.com.svg?variant=adaptive&line=%23d37f2c)](https://starchart.cc/ncdai/chanhdai.com)
+[![Star History](https://starchart.cc/ncdai/mitr.dev.svg?variant=adaptive&line=%23d37f2c)](https://starchart.cc/ncdai/mitr.dev)
 
 ## Acknowledgments
 
@@ -96,5 +92,3 @@ You're free to use my code! Just make sure to <ins>remove all my personal inform
 - [PostHog](https://posthog.com)
 - [c15t](https://c15t.com)
 - And many other open-source libraries used in `package.json`
-
-<!-- GitAds-Verify: QICCAB4PFWV9MHUGPGPN5B2I8SAXLAOK -->
