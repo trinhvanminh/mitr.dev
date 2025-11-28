@@ -21,7 +21,8 @@ async function getStargazerCount() {
 
     const json = (await response.json()) as { stargazers_count?: number };
     return Number(json?.stargazers_count) || 0;
-  } catch {
+  } catch (error) {
+    console.log("Error fetching GitHub stargazer count:", error);
     return 0;
   }
 }

@@ -21,7 +21,7 @@
     "url": "git+https://github.com/trinhvanminh/mitr.dev.git"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE-OPTIONS='inspect' next dev",
     "build": "next build",
     "start": "next start",
     "preview": "next build && next start",
@@ -77,6 +77,7 @@
     "zod": "^3.25.0"
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "@eslint/eslintrc": "^3.3.0",
     "@tailwindcss/postcss": "^4.1.17",
     "@tailwindcss/typography": "^0.5.16",
