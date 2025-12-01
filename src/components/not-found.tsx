@@ -14,14 +14,18 @@ export function NotFound({ className }: { className?: string }) {
     >
       <svg
         className="h-28 w-full text-border"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 514 258"
+        viewBox="0 0 513 262"
         fill="none"
+        xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M65 193v64h128v-64H65Zm0 0H1V65h64m0 128V65m384 0H321v128h128m0-128V1H257v256h192v-64m0-128v128m0-128h64v128h-64M65 65h128V1H65v64Z"
+          d="M0.5 261.155V0.5H74.9727V37.7364H112.209V74.9727H149.445V37.7364H186.682V0.5H261.155V261.155H186.682V113.373H149.445V185.518H112.209V113.373H74.9727V261.155H0.5Z"
           stroke="currentColor"
-          strokeWidth="1"
+          vectorEffect="non-scaling-stroke"
+        />
+        <path
+          d="M289.082 0.5V37.7364H363.555V261.155H438.027V37.7364H512.5V0.5H289.082Z"
+          stroke="currentColor"
           vectorEffect="non-scaling-stroke"
         />
       </svg>
