@@ -1,10 +1,10 @@
-# AI Agent Guidelines for chanhdai.com
+# AI Agent Guidelines for mitr.dev
 
-This guide provides essential information for AI agents working with the chanhdai.com codebase - a Next.js dev portfolio, blog, and component registry website.
+This guide provides essential information for AI agents working with the mitr.dev codebase - a Next.js dev portfolio, blog, and component registry website.
 
 ## Project Overview
 
-**chanhdai.com** is a minimal, pixel-perfect dev portfolio, component registry, and blog built with modern web technologies. It serves as:
+**mitr.dev** is a minimal, pixel-perfect dev portfolio, component registry, and blog built with modern web technologies. It serves as:
 
 - Personal portfolio for Trinh Van Minh (@minhtrinh2611)
 - Component registry using shadcn/ui system

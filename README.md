@@ -5,9 +5,9 @@ A minimal, pixel-perfect dev portfolio, component registry, and blog to showcase
 Check out the live site: [mitr.dev](https://mitr.dev)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/assets/images/screenshot-og-image-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="/assets/images/screenshot-og-image-light.png">
-  <img src="/assets/images/screenshot-og-image-light.png" alt="Screenshot">
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.mitr.dev//assets/images/screenshot-og-image-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://www.mitr.dev//assets/images/screenshot-og-image-light.png">
+  <img src="https://www.mitr.dev//assets/images/screenshot-og-image-light.png" alt="Screenshot">
 </picture>
 
 ## Overview
@@ -73,9 +73,9 @@ Licensed under the [MIT license](./LICENSE).
 
 You're free to use my code! Just make sure to <ins>remove all my personal information</ins> before publishing your website. It's awesome to see my code being useful to someone!
 
-## Star History
+<!-- ## Star History
 
-[![Star History](https://starchart.cc/ncdai/mitr.dev.svg?variant=adaptive&line=%23d37f2c)](https://starchart.cc/ncdai/mitr.dev)
+[![Star History](https://starchart.cc/trinhvanminh/mitr.dev.svg?variant=adaptive&line=%23d37f2c)](https://starchart.cc/ncdai/mitr.dev) -->
 
 ## Acknowledgments
 
