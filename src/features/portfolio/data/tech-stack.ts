@@ -8,7 +8,7 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Language"],
   },
   {
-    key: "js",
+    key: "javascript",
     title: "JavaScript",
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     categories: ["Language"],
@@ -25,12 +25,12 @@ export const TECH_STACK: TechStack[] = [
     href: "https://nodejs.org/",
     categories: ["Runtime Environment"],
   },
-  // {
-  //   key: "bun",
-  //   title: "Bun",
-  //   href: "https://bun.sh/",
-  //   categories: ["Runtime Environment"],
-  // },
+  {
+    key: "vite",
+    title: "Vite",
+    href: "https://vite.dev/",
+    categories: ["Build Tool"],
+  },
   {
     key: "react",
     title: "React",

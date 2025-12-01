@@ -38,16 +38,17 @@ export const EXPERIENCES: Experience[] = [
         id: "logix-middle-2025",
         title: "Middle Frontend Engineer",
         employmentPeriod: {
-          start: "09.2022",
+          start: "05.2025",
         },
         employmentType: "Full-time",
         icon: "code",
-        description:
-          "- Lead frontend engineer for Saleshub v2.\n- Architecting frontend structure using Next.js, Shadcn, TailwindCSS, and Turborepo.\n- Standardizing reusable components and improving development workflow.",
+        description: `- Lead frontend engineer for FMCG project.
+- Architecting frontend structure using Next.js, Shadcn, TailwindCSS, and Turborepo.
+- Leading frontend architecture and component standardization.`,
         skills: [
           "React.js",
           "Next.js",
-          "TypeScript",
+          "Typescript",
           "Zustand",
           "Vite",
           "TailwindCSS",
@@ -65,22 +66,20 @@ export const EXPERIENCES: Experience[] = [
         },
         employmentType: "Full-time",
         icon: "code",
-        description:
-          "- Maintained and improved multiple production systems including React Native and React web applications.\n- Migrated projects from JavaScript to TypeScript.\n- Implemented monorepo structure using NX and standardized UI components.\n- Led and mentored 2 frontend fresher developers.\n- Researched and built AI-powered retailer assistant using LangChain, Python, and vector database.",
+        description: `- Maintained and improved multiple production systems including Car Bidding App and FMCG project.
+- Upgraded MUI version, standardized components, and migrated project from JS to TS.
+- Researched and built AI-powered Retailer Assistant using LangChain, Python, and vector database.
+- Migrated UI from MUI to veeamUI for [Veeam](https://www.veeam.com/) data portability project.
+- Led and mentored 2 fresher frontend developers.`,
         skills: [
           "React.js",
           "React Native",
           "Next.js",
-          "TypeScript",
+          "Typescript",
+          "Python",
           "Redux Toolkit",
           "Vite",
-          "Python",
-          "MongoDB",
-          "LangChain",
           "Agile",
-          "Monorepo (NX)",
-          "Mentorship",
-          "Research",
         ],
         isExpanded: true,
       },
@@ -95,41 +94,31 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         id: "uni-fresher-2021",
-        title: "Fresher Frontend Engineer",
+        title: "Fresher Software Engineer",
         employmentPeriod: {
           start: "10.2021",
           end: "08.2022",
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Developed web applications and landing pages using React, Antd, and MUI.\n- Built data extraction and processing pipelines using Python, BeautifulSoup, NumPy, and Pandas.\n- Designed and implemented Harmonized System (HS) search engines using Solr.\n- Worked on multi-language support, SEO.\n\nProjects:\n- [UNI Customs Consulting Landing Page](https://unicustomsconsulting.com/en/home/)\n- [HS Search System](https://uni-solr.eximhow.com/solr)\n- [Eximhow Web App](https://www.eximhow.com/)`,
+        description: `- Developed [Eximhow Web App](https://www.eximhow.com/) and [UNI Customs Consulting Landing Page](https://unicustomsconsulting.com/en/home/) using React, Antd, and MUI.
+- Built data extraction and processing pipelines using Python, BeautifulSoup, NumPy, and Pandas.
+- Designed and implemented [HS Search System](https://uni-solr.eximhow.com/solr) using Solr.
+- Worked on multi-language support, SEO and content writing.`,
         skills: [
           "React.js",
-          "Redux",
           "Antd",
           "MUI",
           "Solr",
           "Python",
-          "BeautifulSoup",
           "Auth0",
-          "NGINX",
+          "nginx",
+          "UI/UX Design",
+          "UX Writing",
           "Design System",
-          "SEO",
-          "Research",
+          "Figma",
+          "Redux",
         ],
-        isExpanded: true,
-      },
-      {
-        id: "uni-designer-2021",
-        title: "UI/UX Designer",
-        employmentPeriod: {
-          start: "10.2021",
-          end: "08.2022",
-        },
-        employmentType: "Full-time",
-        icon: "design",
-        description: `- UI/UX design, brand design, design system standardization`,
-        skills: ["UI/UX Design", "Brand Design", "Figma", "SEO", "Research"],
         isExpanded: true,
       },
     ],
@@ -155,6 +144,8 @@ export const EXPERIENCES: Experience[] = [
         skills: [
           "C++",
           "Python",
+          "SQL",
+          "NLP",
           "Data Structures",
           "Algorithms",
           "Advanced Databases",
