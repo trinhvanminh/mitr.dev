@@ -2,29 +2,83 @@ import type { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
+    id: "freelance",
+    companyName: "Freelance",
+    positions: [
+      {
+        id: "freelance-2025",
+        title: "Full-stack Developer",
+        employmentPeriod: {
+          start: "2025",
+        },
+        employmentType: "Part-time",
+        description: `- Built a truck management website with real-time delivery tracking.
+- Developed landing page with CMS system using Strapi.
+- Designed a customizable WordPress landing page.`,
+        icon: "code",
+        skills: [
+          "React",
+          "Next.js",
+          "Google Maps API",
+          "Better Auth",
+          "Strapi",
+          "WordPress",
+        ],
+      },
+    ],
+    isCurrentEmployer: true,
+  },
+  {
     id: "logixtek",
     companyName: "Logix Technology",
     companyLogo:
       "https://www.logixtek.com/wp-content/uploads/2024/03/cropped-flaticon-32x32.png",
     positions: [
       {
-        id: "20f8bfe5-b6a3-4b0d-ac2f-6fccd50d417e",
-        title: "Middle Frontend Developer",
+        id: "logix-middle-2025",
+        title: "Middle Frontend Engineer",
         employmentPeriod: {
           start: "09.2022",
         },
         employmentType: "Full-time",
         icon: "code",
-        // description: `- TBD`,
+        description:
+          "- Lead frontend engineer for Saleshub v2.\n- Architecting frontend structure using Next.js, Shadcn, TailwindCSS, and Turborepo.\n- Standardizing reusable components and improving development workflow.",
         skills: [
-          "TypeScript",
+          "React.js",
           "Next.js",
-          "React Native",
-          "Tailwind CSS",
+          "TypeScript",
+          "Zustand",
+          "Vite",
+          "TailwindCSS",
+          "Shadcn",
           "Agile",
-          "Teamwork",
+        ],
+        isExpanded: true,
+      },
+      {
+        id: "logix-junior-2022",
+        title: "Junior Frontend Engineer",
+        employmentPeriod: {
+          start: "09.2022",
+          end: "05.2025",
+        },
+        employmentType: "Full-time",
+        icon: "code",
+        description:
+          "- Maintained and improved multiple production systems including React Native and React web applications.\n- Migrated projects from JavaScript to TypeScript.\n- Implemented monorepo structure using NX and standardized UI components.\n- Led and mentored 2 frontend fresher developers.\n- Researched and built AI-powered retailer assistant using LangChain, Python, and vector database.",
+        skills: [
+          "React.js",
+          "React Native",
+          "Next.js",
+          "TypeScript",
+          "Redux Toolkit",
+          "Vite",
+          "Python",
+          "Agile",
+          "Monorepo (NX)",
+          "Mentorship",
           "Research",
-          "Problem-solving",
         ],
         isExpanded: true,
       },
@@ -38,63 +92,53 @@ export const EXPERIENCES: Experience[] = [
       "https://unicustomsconsulting.com/wp-content/uploads/2024/05/cropped-logo-uni-1-32x32.png",
     positions: [
       {
-        id: "30d3a9fb-021d-452a-9d27-83655369b4b9",
-        title: "Fresher Fontend Engineer",
+        id: "uni-fresher-2021",
+        title: "Fresher Frontend Engineer",
         employmentPeriod: {
           start: "10.2021",
           end: "08.2022",
         },
         employmentType: "Full-time",
         icon: "code",
-        //         description: `- Created a harmonized system (HS) where you can browse and check latest information for all products like such as on tariffs, taxes, procedures, ....
-        // - Created the Eximhow Design System to standardize design practices and accelerate development.
-
-        // In-house Project: [Eximhow Website](https://www.eximhow.com)
-        // - Designed the UI/UX for Eximhow Website, delivering a seamless experience.
-        // - Integrated with search engine system (solr).
-
-        // In-house Project: [UNI Customs Consulting](https://unicustomsconsulting.com/en/home)`,
+        description: `- Developed web applications and landing pages using React, Antd, and MUI.\n- Built data extraction and processing pipelines using Python, BeautifulSoup, NumPy, and Pandas.\n- Designed and implemented Harmonized System (HS) search engines using Solr.\n- UI/UX design, brand design, and design system standardization.\n- Worked on multi-language support, SEO, and content writing.\n\nIn-house Projects:\n- [UNI Customs Consulting Landing Page](https://unicustomsconsulting.com/en/home/)\n- [HS Search System](https://uni-solr.eximhow.com/solr)\n- [Eximhow Web App](https://www.eximhow.com/)`,
         skills: [
           "React.js",
+          "Redux",
           "Antd",
           "MUI",
           "Solr",
           "Python",
+          "BeautifulSoup",
           "Auth0",
           "NGINX",
-          "Docusaurus",
+          "Design System",
+          "SEO",
+          "Research",
+        ],
+        isExpanded: true,
+      },
+      {
+        id: "uni-designer-2021",
+        title: "UI/UX Designer",
+        employmentPeriod: {
+          start: "10.2021",
+          end: "08.2022",
+        },
+        employmentType: "Full-time",
+        icon: "design",
+        description: `- UI/UX design, brand design, and design system standardization`,
+        skills: [
           "UI/UX Design",
           "UX Writing",
-          "Design System",
           "Brand Design",
           "Figma",
+          "SEO",
           "Research",
         ],
         isExpanded: true,
       },
     ],
     isCurrentEmployer: false,
-  },
-  {
-    id: "freelance",
-    companyName: "Freelance",
-    positions: [
-      {
-        id: "f0becfba-057d-40db-b252-739e1654faa1",
-        title: "Full-stack Developer",
-        employmentPeriod: {
-          start: "2025",
-          end: "2025",
-        },
-        employmentType: "Part-time",
-        description: `- Built a truck management website with real-time delivery tracking.
-- Developed an e-commerce site for bird's nest products.
-- Created a map to display monitoring station data.
-- Designed a customizable WordPress landing page.`,
-        icon: "code",
-        skills: ["React", "Next.js", "Google Maps API", "Better Auth"],
-      },
-    ],
   },
   {
     id: "education",
