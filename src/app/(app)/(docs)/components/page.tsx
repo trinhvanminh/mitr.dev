@@ -41,7 +41,7 @@ export default function Page() {
         <h1 className="text-3xl font-semibold">Components</h1>
       </div>
 
-      <div className="p-4">
+      {/* <div className="p-4">
         <p className="font-mono text-sm text-balance text-muted-foreground">
           {metadata.description} <span className="max-md:block" />
           <a
@@ -54,7 +54,7 @@ export default function Page() {
           </a>{" "}
           for shadcn/ui.
         </p>
-      </div>
+      </div> */}
 
       <div className="screen-line-before screen-line-after relative">
         <RegistryCommandAnimated />
