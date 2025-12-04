@@ -24,11 +24,6 @@ export const USER: User = {
       company: "Logixtek",
       website: "https://www.logixtek.com",
     },
-    {
-      title: "Frontend Engineer",
-      company: "Senla",
-      website: "https://www.shipsenla.com",
-    },
   ],
   about: `
 - **Frontend Engineer** with **4+ years of experience**, known for pixel-perfect execution and strong attention to small details.
