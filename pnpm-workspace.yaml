@@ -1,5 +1,3 @@
-minimumReleaseAge: 4320
-
 onlyBuiltDependencies:
   - '@vercel/speed-insights'
   - core-js
@@ -7,3 +5,4 @@ onlyBuiltDependencies:
   - msw
   - protobufjs
   - sharp
+  - unrs-resolver
