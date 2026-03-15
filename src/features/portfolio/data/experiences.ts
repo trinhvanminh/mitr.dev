@@ -43,6 +43,7 @@ Projects:
         title: "Middle Frontend Engineer",
         employmentPeriod: {
           start: "05.2025",
+          end: "03.2026",
         },
         employmentType: "Full-time",
         icon: "code",
@@ -88,7 +89,7 @@ Projects:
         isExpanded: true,
       },
     ],
-    isCurrentEmployer: true,
+    isCurrentEmployer: false,
   },
   {
     id: "uni-customs-consulting",
